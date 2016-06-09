@@ -56,7 +56,7 @@ function handleText(textNode)
 
 	var oldValue = textNode.nodeValue;
 	var v = oldValue;
-	
+
 	v = v.replace(/\bcuck(s?)\b/g, "scary ghost$1");
 	v = v.replace(/\bCuck(s?)\b/g, "Scary ghost$1");
 	v = v.replace(/\bCUCK(S?)\b/g, "SCARY GHOST$1");
@@ -64,7 +64,6 @@ function handleText(textNode)
 	v = v.replace(/\bcucking\b/ig, "spooking");
 	v = v.replace(/\bcuckservative\b/ig, "spookmaster");
 	v = v.replace(/\bnsfcucks\b/ig, "dumb");
-	
 	
 	if (v !== oldValue) {
 		textNode.nodeValue = v;
