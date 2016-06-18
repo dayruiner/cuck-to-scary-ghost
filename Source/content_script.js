@@ -61,7 +61,11 @@ function handleText(textNode)
 	v = v.replace(/\bCuck(s?)\b/g, "Scary ghost$1");
 	v = v.replace(/\bCUCK(S?)\b/g, "SCARY GHOST$1");
 	v = v.replace(/\bcucked\b/ig, "spooked");
+	v = v.replace(/\bcuckolded\b/ig, "spooked");
 	v = v.replace(/\bcucking\b/ig, "spooking");
+	v = v.replace(/\bcuckolding\b/ig, "spooking");
+	v = v.replace(/\bcuckery\b/ig, "spookery");
+	v = v.replace(/\bcuckoldry\b/ig, "spookery");
 	v = v.replace(/\bcuckservative\b/ig, "spookmaster");
 	v = v.replace(/\bnsfcucks\b/ig, "dumb");
 	
